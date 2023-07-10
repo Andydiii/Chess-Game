@@ -1,2 +1,12 @@
 A chess program developed in C++ that supports both graphical and text rendering.
-Details look at Design in doc 
+- Developed a bash script, runsuite, to automate the testing and comparison of program outputs against the expected results, ensuring program correctness and accuracy.
+- Implemented command-line argument passing and optional standard input input for the program under test, enabling comprehensive testing scenarios using the provided suite file and sample program.
+- Utilized a suite file containing a list of filename stems to construct test cases, with each stem representing a unique test and corresponding argument file.
+- Implemented file naming conventions for test arguments, such as test1.args, to store command-line arguments for each individual test case.
+- Executed programToTest and sampleProgram for each test in the suite file, comparing their outputs, and generating a detailed report highlighting any mismatches between the two.
+- Enhanced the runSuite script to display the input provided to a failed test case, facilitating debugging and error identification.
+- Generated comprehensive test reports, including the test name, associated arguments, input (if applicable), expected output (from the sampleProgram), and actual output (from programToTest) for failed tests.
+- Ensured flexibility and scalability by accepting suite-file, programToTest, and sampleProgram as command-line arguments, allowing seamless integration into various testing environments.
+- Employed effective file handling and manipulation techniques to access and extract relevant information from the suite-file and individual test files.
+- Demonstrated proficiency in shell scripting, automating repetitive testing tasks, and streamlining the verification process for program correctness and adherence to expected results.
+- Facilitated efficient debugging and error resolution by providing detailed information on failed test cases, including input data, expected output, and actual output, aiding developers in identifying and resolving issues promptly.
