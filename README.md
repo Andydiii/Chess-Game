@@ -1,4 +1,5 @@
-# Chess-Game developed in C++ that supports both graphical and text rendering.
+# Chess-Game 
+- Developed in C++ that supports both graphical and text rendering.
 - Collaborated with a team to develop a chess program in accordance with the MVC (Model View Controller) design pattern, effectively assigning responsibilities to the board class, chess class, and player class.
 - Implemented the observer pattern to enable text and graphical displays, notifying observers of board updates and ensuring a synchronized user experience.
 - Developed various player types, including human and robot players, each with distinct move decision algorithms based on the project specifications.
